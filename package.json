@@ -1,0 +1,25 @@
+{
+  "name": "report-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "pm2 start ecosystem.config.js --env dev",
+    "test": "pm2 start ecosystem.config.js --env test",
+    "pro": "pm2 start ecosystem.config.js --env pro",
+    "logs": "pm2 logs",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^6.1.0",
+    "koa-jwt": "^4.0.3",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.4.1"
+  }
+}

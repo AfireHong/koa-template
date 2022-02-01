@@ -1,0 +1,2 @@
+[2022-02-01T16:05:27.529] [INFO] [user] - GET 200 /user/info 请求参数： {} 响应参数： {"code":200,"msg":"获取成功","data":"hello wolrd"} - ::1 - 4ms
+[2022-02-01T16:05:29.102] [INFO] [user] - GET 200 /user/info 请求参数： {} 响应参数： {"code":200,"msg":"获取成功","data":"hello wolrd"} - ::1 - 1ms
